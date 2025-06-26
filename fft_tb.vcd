@@ -1,0 +1,601 @@
+$date
+	Thu Jun 26 11:09:15 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ffttb $end
+$var wire 16 ! X_imag_0 [15:0] $end
+$var wire 16 " X_imag_1 [15:0] $end
+$var wire 16 # X_imag_2 [15:0] $end
+$var wire 16 $ X_imag_3 [15:0] $end
+$var wire 16 % X_imag_4 [15:0] $end
+$var wire 16 & X_imag_5 [15:0] $end
+$var wire 16 ' X_imag_6 [15:0] $end
+$var wire 16 ( X_imag_7 [15:0] $end
+$var wire 16 ) X_real_0 [15:0] $end
+$var wire 16 * X_real_1 [15:0] $end
+$var wire 16 + X_real_2 [15:0] $end
+$var wire 16 , X_real_3 [15:0] $end
+$var wire 16 - X_real_4 [15:0] $end
+$var wire 16 . X_real_5 [15:0] $end
+$var wire 16 / X_real_6 [15:0] $end
+$var wire 16 0 X_real_7 [15:0] $end
+$var reg 1 1 clk $end
+$var reg 1 2 rst $end
+$var reg 16 3 x_imag_0 [15:0] $end
+$var reg 16 4 x_imag_1 [15:0] $end
+$var reg 16 5 x_imag_2 [15:0] $end
+$var reg 16 6 x_imag_3 [15:0] $end
+$var reg 16 7 x_imag_4 [15:0] $end
+$var reg 16 8 x_imag_5 [15:0] $end
+$var reg 16 9 x_imag_6 [15:0] $end
+$var reg 16 : x_imag_7 [15:0] $end
+$var reg 16 ; x_real_0 [15:0] $end
+$var reg 16 < x_real_1 [15:0] $end
+$var reg 16 = x_real_2 [15:0] $end
+$var reg 16 > x_real_3 [15:0] $end
+$var reg 16 ? x_real_4 [15:0] $end
+$var reg 16 @ x_real_5 [15:0] $end
+$var reg 16 A x_real_6 [15:0] $end
+$var reg 16 B x_real_7 [15:0] $end
+$scope module uut $end
+$var wire 16 C W_imag_0 [15:0] $end
+$var wire 16 D W_imag_1 [15:0] $end
+$var wire 16 E W_imag_2 [15:0] $end
+$var wire 16 F W_imag_3 [15:0] $end
+$var wire 16 G W_real_0 [15:0] $end
+$var wire 16 H W_real_1 [15:0] $end
+$var wire 16 I W_real_2 [15:0] $end
+$var wire 16 J W_real_3 [15:0] $end
+$var wire 16 K X_imag_0 [15:0] $end
+$var wire 16 L X_imag_1 [15:0] $end
+$var wire 16 M X_imag_2 [15:0] $end
+$var wire 16 N X_imag_3 [15:0] $end
+$var wire 16 O X_imag_4 [15:0] $end
+$var wire 16 P X_imag_5 [15:0] $end
+$var wire 16 Q X_imag_6 [15:0] $end
+$var wire 16 R X_imag_7 [15:0] $end
+$var wire 16 S X_real_0 [15:0] $end
+$var wire 16 T X_real_1 [15:0] $end
+$var wire 16 U X_real_2 [15:0] $end
+$var wire 16 V X_real_3 [15:0] $end
+$var wire 16 W X_real_4 [15:0] $end
+$var wire 16 X X_real_5 [15:0] $end
+$var wire 16 Y X_real_6 [15:0] $end
+$var wire 16 Z X_real_7 [15:0] $end
+$var wire 1 [ clk $end
+$var wire 16 \ mult_in1_imag [15:0] $end
+$var wire 16 ] mult_in1_real [15:0] $end
+$var wire 16 ^ mult_in2_imag [15:0] $end
+$var wire 16 _ mult_in2_real [15:0] $end
+$var wire 16 ` mult_out_imag [15:0] $end
+$var wire 16 a mult_out_real [15:0] $end
+$var wire 1 b rst $end
+$var wire 16 c x_imag_0 [15:0] $end
+$var wire 16 d x_imag_1 [15:0] $end
+$var wire 16 e x_imag_2 [15:0] $end
+$var wire 16 f x_imag_3 [15:0] $end
+$var wire 16 g x_imag_4 [15:0] $end
+$var wire 16 h x_imag_5 [15:0] $end
+$var wire 16 i x_imag_6 [15:0] $end
+$var wire 16 j x_imag_7 [15:0] $end
+$var wire 16 k x_real_0 [15:0] $end
+$var wire 16 l x_real_1 [15:0] $end
+$var wire 16 m x_real_2 [15:0] $end
+$var wire 16 n x_real_3 [15:0] $end
+$var wire 16 o x_real_4 [15:0] $end
+$var wire 16 p x_real_5 [15:0] $end
+$var wire 16 q x_real_6 [15:0] $end
+$var wire 16 r x_real_7 [15:0] $end
+$var integer 32 s i [31:0] $end
+$scope module tw_rom $end
+$var reg 16 t W_imag_0 [15:0] $end
+$var reg 16 u W_imag_1 [15:0] $end
+$var reg 16 v W_imag_2 [15:0] $end
+$var reg 16 w W_imag_3 [15:0] $end
+$var reg 16 x W_real_0 [15:0] $end
+$var reg 16 y W_real_1 [15:0] $end
+$var reg 16 z W_real_2 [15:0] $end
+$var reg 16 { W_real_3 [15:0] $end
+$upscope $end
+$scope module u_mult $end
+$var wire 16 | a_imag [15:0] $end
+$var wire 16 } a_real [15:0] $end
+$var wire 16 ~ b_imag [15:0] $end
+$var wire 16 !" b_real [15:0] $end
+$var wire 32 "" imag_part [31:0] $end
+$var wire 16 #" out_imag [15:0] $end
+$var wire 16 $" out_real [15:0] $end
+$var wire 32 %" real_part [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %"
+b0 $"
+b0 #"
+b0 ""
+b101101010000010 !"
+b1010010101111110 ~
+b0 }
+b0 |
+b1010010101111110 {
+b0 z
+b101101010000010 y
+b111111111111111 x
+b1010010101111110 w
+b1000000000000000 v
+b1010010101111110 u
+b0 t
+b1000 s
+b0 r
+b0 q
+b0 p
+b0 o
+b0 n
+b0 m
+b0 l
+b0 k
+b0 j
+b0 i
+b0 h
+b0 g
+b0 f
+b0 e
+b0 d
+b0 c
+1b
+b0 a
+b0 `
+b101101010000010 _
+b1010010101111110 ^
+b0 ]
+b0 \
+0[
+b0 Z
+b0 Y
+b0 X
+b0 W
+b0 V
+b0 U
+b0 T
+b0 S
+b0 R
+b0 Q
+b0 P
+b0 O
+b0 N
+b0 M
+b0 L
+b0 K
+b1010010101111110 J
+b0 I
+b101101010000010 H
+b111111111111111 G
+b1010010101111110 F
+b1000000000000000 E
+b1010010101111110 D
+b0 C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+12
+01
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#5000
+b1000 s
+11
+1[
+#10000
+01
+0[
+#15000
+b1000 s
+11
+1[
+#20000
+01
+0[
+b111111111111111 ;
+b111111111111111 k
+02
+0b
+#25000
+b101101010000001 a
+b101101010000001 $"
+b1010010101111110 `
+b1010010101111110 #"
+b101101010000001 %"
+b11111111111111111010010101111110 ""
+b111111111111111 ]
+b111111111111111 }
+b1000 s
+11
+1[
+#30000
+01
+0[
+#35000
+b100 s
+11
+1[
+#40000
+01
+0[
+#45000
+b1010010101111110 (
+b1010010101111110 R
+b101101010000001 0
+b101101010000001 Z
+b1010010101111110 '
+b1010010101111110 Q
+b101101010000001 /
+b101101010000001 Y
+b111111111111111 -
+b111111111111111 W
+b111111111111111 +
+b111111111111111 U
+b111111111111111 )
+b111111111111111 S
+b1000 s
+11
+1[
+#50000
+01
+0[
+#55000
+b100 s
+11
+1[
+#60000
+01
+0[
+#65000
+b1000 s
+11
+1[
+#70000
+01
+0[
+#75000
+b100 s
+11
+1[
+#80000
+01
+0[
+#85000
+b1000 s
+11
+1[
+#90000
+01
+0[
+#95000
+b100 s
+11
+1[
+#100000
+01
+0[
+#105000
+b1000 s
+11
+1[
+#110000
+01
+0[
+#115000
+b100 s
+11
+1[
+#120000
+01
+0[
+b1000000000000 B
+b1000000000000 r
+b1000000000000 A
+b1000000000000 q
+b1000000000000 @
+b1000000000000 p
+b1000000000000 ?
+b1000000000000 o
+b1000000000000 >
+b1000000000000 n
+b1000000000000 =
+b1000000000000 m
+b1000000000000 <
+b1000000000000 l
+b1000000000000 ;
+b1000000000000 k
+#125000
+b0 a
+b0 $"
+b0 `
+b0 #"
+b0 %"
+b0 ""
+b0 ]
+b0 }
+b1000 s
+11
+1[
+#130000
+01
+0[
+#135000
+b100 s
+11
+1[
+#140000
+01
+0[
+#145000
+b0 (
+b0 R
+b0 0
+b0 Z
+b0 '
+b0 Q
+b0 /
+b0 Y
+b0 -
+b0 W
+b0 +
+b0 U
+b100000000000000 *
+b100000000000000 T
+b100000000000000 )
+b100000000000000 S
+b1000 s
+11
+1[
+#150000
+01
+0[
+#155000
+b100 s
+11
+1[
+#160000
+01
+0[
+#165000
+b1000 s
+11
+1[
+#170000
+01
+0[
+#175000
+b100 s
+11
+1[
+#180000
+01
+0[
+#185000
+b1000 s
+11
+1[
+#190000
+01
+0[
+#195000
+b100 s
+11
+1[
+#200000
+01
+0[
+#205000
+b1000 s
+11
+1[
+#210000
+01
+0[
+#215000
+b100 s
+11
+1[
+#220000
+01
+0[
+b0 B
+b0 r
+b1000000000000000 A
+b1000000000000000 q
+b0 @
+b0 p
+b111111111111111 ?
+b111111111111111 o
+b0 >
+b0 n
+b1000000000000000 =
+b1000000000000000 m
+b0 <
+b0 l
+b111111111111111 ;
+b111111111111111 k
+#225000
+b1000 s
+11
+1[
+#230000
+01
+0[
+#235000
+b100 s
+11
+1[
+#240000
+01
+0[
+#245000
+b1111111111111110 +
+b1111111111111110 U
+b0 *
+b0 T
+b1111111111111110 )
+b1111111111111110 S
+b1000 s
+11
+1[
+#250000
+01
+0[
+#255000
+b100 s
+11
+1[
+#260000
+01
+0[
+#265000
+b1000 s
+11
+1[
+#270000
+01
+0[
+#275000
+b100 s
+11
+1[
+#280000
+01
+0[
+#285000
+b1000 s
+11
+1[
+#290000
+01
+0[
+#295000
+b100 s
+11
+1[
+#300000
+01
+0[
+#305000
+b1000 s
+11
+1[
+#310000
+01
+0[
+#315000
+b100 s
+11
+1[
+#320000
+01
+0[
+#325000
+b1000 s
+11
+1[
+#330000
+01
+0[
+#335000
+b100 s
+11
+1[
+#340000
+01
+0[
+#345000
+b1000 s
+11
+1[
+#350000
+01
+0[
+#355000
+b100 s
+11
+1[
+#360000
+01
+0[
+#365000
+b1000 s
+11
+1[
+#370000
+01
+0[
+#375000
+b100 s
+11
+1[
+#380000
+01
+0[
+#385000
+b1000 s
+11
+1[
+#390000
+01
+0[
+#395000
+b100 s
+11
+1[
+#400000
+01
+0[
+#405000
+b1000 s
+11
+1[
+#410000
+01
+0[
+#415000
+b100 s
+11
+1[
+#420000
+01
+0[
